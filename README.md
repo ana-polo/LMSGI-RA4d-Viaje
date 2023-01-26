@@ -48,8 +48,7 @@ Ejemplo de código XML y DTD para el módulo de Lenguajes de Marcas y Sistemas d
 Dado el código XML siguiente:
 
 <details>
-    <summary>
-    <details>Leer</details>
+    <summary>Leer código</summary>
 
         <viaje>
             <etapa dia="10/10/2020">
@@ -71,8 +70,7 @@ Dado el código XML siguiente:
             </etapa>
         </viaje>
 
-    </summary>
-<details>
+</details>
 
 ### Apartado 1
 
