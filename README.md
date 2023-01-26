@@ -1,9 +1,9 @@
 
-# LMSGI-RA4c-Viaje
+# LMSGI-RA4d-Viaje
 
 Ejemplos de descripciones XML con DTD y XML-Schema
 
-![Logo de Team](https://github.com/ana-polo/LMSGI-RA4c-Viaje/blob/main/LMSGI.gif "Team logo")
+![Logo de Team](https://github.com/ana-polo/LMSGI-RA4d-Viaje/blob/main/LMSGI.gif "Team logo")
 
 ## Table of Contents
 
@@ -47,7 +47,7 @@ Ejemplo de código XML y DTD para el módulo de Lenguajes de Marcas y Sistemas d
 
 Dado el fichero XML siguiente:
 
-[viaje.xml](https://github.com/ana-polo/LMSGI-RA4c-Viaje/blob/main/Solucion/LMSGI-RA4c-Viaje.xml "viaje.xml")
+[viaje.xml](https://github.com/ana-polo/LMSGI-RA4d-Viaje/blob/main/Solucion/LMSGI-RA4d-Viaje.xml "viaje.xml")
 
 ### Apartado 1
 
