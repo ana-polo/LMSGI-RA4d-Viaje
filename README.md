@@ -45,9 +45,32 @@ Ejemplo de código XML y DTD para el módulo de Lenguajes de Marcas y Sistemas d
 
 ----
 
-Dado el fichero XML siguiente:
+Dado el código XML siguiente:
 
-[viaje.xml](https://github.com/ana-polo/LMSGI-RA4d-Viaje/blob/main/Solucion/Viaje.xml "viaje.xml")
+<summary>
+    <details>Leer</details>
+
+    <viaje>
+		<etapa dia="10/10/2020">
+			<lugar>Aguilar de Campoo</lugar>
+			<transporte>autobus</transporte>
+			<alojamiento>Casa rural</alojamiento>
+		</etapa>
+
+		<etapa dia="11/10/2020">
+			<lugar>Cervera de Pisuerga</lugar>
+			<transporte>taxi</transporte>
+			<alojamiento>Hostal</alojamiento>
+		</etapa>
+
+		<etapa dia="12/10/2020">
+			<lugar>Potes</lugar>
+			<transporte>Blablacar</transporte>
+			<alojamiento>Hotel</alojamiento>
+		</etapa>
+</viaje>
+
+</summary>
 
 ### Apartado 1
 
