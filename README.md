@@ -47,30 +47,32 @@ Ejemplo de código XML y DTD para el módulo de Lenguajes de Marcas y Sistemas d
 
 Dado el código XML siguiente:
 
-<summary>
+<details>
+    <summary>
     <details>Leer</details>
 
-    <viaje>
-		<etapa dia="10/10/2020">
-			<lugar>Aguilar de Campoo</lugar>
-			<transporte>autobus</transporte>
-			<alojamiento>Casa rural</alojamiento>
-		</etapa>
+        <viaje>
+            <etapa dia="10/10/2020">
+                <lugar>Aguilar de Campoo</lugar>
+                <transporte>autobus</transporte>
+                <alojamiento>Casa rural</alojamiento>
+            </etapa>
 
-		<etapa dia="11/10/2020">
-			<lugar>Cervera de Pisuerga</lugar>
-			<transporte>taxi</transporte>
-			<alojamiento>Hostal</alojamiento>
-		</etapa>
+            <etapa dia="11/10/2020">
+                <lugar>Cervera de Pisuerga</lugar>
+                <transporte>taxi</transporte>
+                <alojamiento>Hostal</alojamiento>
+            </etapa>
 
-		<etapa dia="12/10/2020">
-			<lugar>Potes</lugar>
-			<transporte>Blablacar</transporte>
-			<alojamiento>Hotel</alojamiento>
-		</etapa>
-</viaje>
+            <etapa dia="12/10/2020">
+                <lugar>Potes</lugar>
+                <transporte>Blablacar</transporte>
+                <alojamiento>Hotel</alojamiento>
+            </etapa>
+        </viaje>
 
-</summary>
+    </summary>
+<details>
 
 ### Apartado 1
 
