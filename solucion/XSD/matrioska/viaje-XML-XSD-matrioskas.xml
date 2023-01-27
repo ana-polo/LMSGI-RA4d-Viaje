@@ -2,19 +2,21 @@
 
 <viaje xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
 	   xsi:noNamespaceSchemaLocation = "LMSGI-RA4d-Viajes-XMLSchema-matrioska.xsd" >
-	<etapa dia = "10/10/2020" >
+
+
+	<etapa dia = "2020-10-10" >
 		<lugar>Aguilar de Campoo</lugar>
 		<transporte>autobus</transporte>
 		<alojamiento>Casa rural</alojamiento>
 	</etapa>
 
-	<etapa dia = "11/10/2020" >
+	<etapa dia = "2023-12-11" >
 		<lugar>Cervera de Pisuerga</lugar>
 		<transporte>taxi</transporte>
 		<alojamiento>Hostal</alojamiento>
 	</etapa>
 
-	<etapa dia = "12/10/2020" >
+	<etapa dia = "2033-10-03" >
 		<lugar>Potes</lugar>
 		<transporte>Blablacar</transporte>
 		<alojamiento>Hotel</alojamiento>

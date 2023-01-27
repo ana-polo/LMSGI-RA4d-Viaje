@@ -50,7 +50,7 @@
 
 						<!-- Definición del atributo dia -->
 
-						<xs:attribute name="dia" use="required" />
+						<xs:attribute name="dia" use="required" type = "xs:date" />
 
 						<!-- Fin definición del atributo dia -->
 
