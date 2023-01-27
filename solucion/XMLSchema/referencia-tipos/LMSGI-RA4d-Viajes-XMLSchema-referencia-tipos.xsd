@@ -2,7 +2,8 @@
 
 <!-- Definición del vocabulario -->
 
-<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema" elementFormDefault = "qualified" >
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema"
+		   elementFormDefault = "qualified" >
 
     <xs:annotation>
         <xs:documentation xml:lang  = "es-es" >
@@ -47,10 +48,16 @@
 
     <xs:element name = "viaje" >
         <xs:complexType>
+
+			<!-- Declaración de los elementos que forman viaje -->
+
             <xs:sequence>
-				<xs:element ref = "etapa" minOccurs = "1" maxOccurs = "unbounded" />
+				<xs:element ref = "etapa" maxOccurs = "unbounded" />
             </xs:sequence>
-        </xs:complexType>
+
+			<!-- Fin de la declaración de los elementos que forman viaje -->
+
+		</xs:complexType>
     </xs:element>
 
 	<!-- Fin ejemplar -->
@@ -58,17 +65,27 @@
 
 	<!-- Nivel 2 -->
 
-	<!-- Definición de ruta -->
+	<!-- Definición de etapa -->
 
 	<xs:element name = "etapa" >
         <xs:complexType>
+
+			<!-- Declaración de los elementos que forman etapa -->
+
             <xs:sequence>
 				<xs:element name = "lugar" type = "tipoTexto30" />
 				<xs:element name = "transporte" type = "tipoTexto30"  />
 				<xs:element name = "alojamiento" type = "tipoTexto30"  />
             </xs:sequence>
 
+			<!-- Fin de la declaración de los elementos que forman etapa -->
+
+			<!-- Declaración de los atributos que forman etapa -->
+
 			<xs:attribute name = "dia" use = "required" type = "xs:date" />
+
+			<!-- Fin de la declaración de los atributos que forman etapa -->
+
 		</xs:complexType>
     </xs:element>
 

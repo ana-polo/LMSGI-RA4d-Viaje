@@ -27,25 +27,46 @@
 
 				<!-- Definición de la etapa -->
 
-				<xs:element name="etapa" maxOccurs="unbounded">
+				<xs:element name = "etapa" maxOccurs = "unbounded" >
 					<xs:complexType>
 						<xs:sequence>
 
 							<!-- Definición de lugar -->
 
-							<xs:element name="lugar" type="xs:string" />
+							<xs:element name="lugar" >
+								<xs:simpleType>
+									<xs:restriction base = "xs:string" >
+										<xs:maxLength value = "30" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
 
 							<!-- Fin definición de lugar -->
 
 							<!-- Definición de transporte -->
 
-							<xs:element name="transporte" type="xs:string" />
+							<xs:element name="transporte" >
+								<xs:simpleType>
+									<xs:restriction base = "xs:string" >
+										<xs:maxLength value = "30" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
 
 							<!-- Fin definición de transporte -->
 
 							<!-- Definición de alojamiento -->
 
-							<xs:element name="alojamiento" type="xs:string" />
+							<xs:element name="alojamiento">
+								<xs:simpleType>
+									<xs:restriction base = "xs:string" >
+										<xs:maxLength value = "30" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+
+							<!-- Fin definición de alojamiento -->
+
 						</xs:sequence>
 
 						<!-- Definición del atributo dia -->

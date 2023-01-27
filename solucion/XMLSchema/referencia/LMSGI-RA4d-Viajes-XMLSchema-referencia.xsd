@@ -27,10 +27,16 @@
 
     <xs:element name = "viaje" >
         <xs:complexType>
+
+			<!-- Declaración de los elementos que forman viaje -->
+
             <xs:sequence>
 				<xs:element ref = "etapa" minOccurs = "1" maxOccurs = "unbounded" />
             </xs:sequence>
-        </xs:complexType>
+
+			<!-- Fin de la declaración de los elementos que forman viaje -->
+
+		</xs:complexType>
     </xs:element>
 
 	<!-- Fin ejemplar -->
@@ -38,21 +44,31 @@
 
 	<!-- Nivel 2 -->
 
-	<!-- Definición de ruta -->
+	<!-- Definición de etapa -->
 
 	<xs:element name = "etapa" >
         <xs:complexType>
-            <xs:sequence>
+
+			<!-- Declaración de los elementos que forman etapa -->
+
+			<xs:sequence>
 				<xs:element ref = "lugar"  />
 				<xs:element ref = "transporte"  />
 				<xs:element ref = "alojamiento"  />
             </xs:sequence>
 
+			<!-- Fin de la declaración de los elementos que forman etapa -->
+
+			<!-- Declaración de los atributos que forman etapa -->
+
 			<xs:attribute name = "dia" use = "required" type = "xs:date" />
+
+			<!-- Fin de la declaración de los atributos que forman etapa -->
+
 		</xs:complexType>
     </xs:element>
 
-	<!-- Fin ejemplar -->
+	<!-- Fin etapa -->
 
 	<!-- Nivel 3 -->
 
